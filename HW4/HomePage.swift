@@ -23,8 +23,7 @@ struct HomePage: View {
                 .accentColor(.clear)
                 .frame(height:300)
                 .padding(2)
-                .background(bgColor)
-                .opacity(0.8)
+                .background(Color.black)
             DisclosureGroup(
                 isExpanded: $isExpanded,
                 content:{

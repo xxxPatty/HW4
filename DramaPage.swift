@@ -34,8 +34,7 @@ struct DramaPage: View {
                     TextEditor(text:.constant(dramaIntro[dramaYear.firstIndex(of:selectYear+2007)!]))
                         .padding(2)
                         .frame(height:300)
-                        .background(bgColor)
-                        .opacity(0.8)
+                        .background(Color.black)
                 }
             }
             else{//若沒有演出，show出預設圖文
@@ -54,8 +53,7 @@ struct DramaPage: View {
                     TextEditor(text:.constant("沒有作品"))
                         .padding(2)
                         .frame(height:300)
-                        .background(bgColor)
-                        .opacity(0.8)
+                        .background(Color.black)
                 }
             }
             //year picker，選年份

@@ -100,8 +100,8 @@
 			children = (
 				7B6E6DB52546888800A62BE5 /* HW4App.swift */,
 				7B6E6DB72546888800A62BE5 /* ContentView.swift */,
-				7B7F4016254D15330089BCE9 /* DramaPage.swift */,
 				7B7F3FB22547ECC10089BCE9 /* HomePage.swift */,
+				7B7F4016254D15330089BCE9 /* DramaPage.swift */,
 				7B7F3FB82547ED000089BCE9 /* PicturePage1.swift */,
 				7B7F3FBB2547ED0D0089BCE9 /* PicturePage2.swift */,
 				7B7F3FBE25495F050089BCE9 /* Pronounce.swift */,
