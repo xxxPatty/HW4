@@ -7,19 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B4309C2254D251100DE59F3 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4309C1254D251100DE59F3 /* ImageView.swift */; };
 		7B6E6DB62546888800A62BE5 /* HW4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E6DB52546888800A62BE5 /* HW4App.swift */; };
 		7B6E6DB82546888800A62BE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E6DB72546888800A62BE5 /* ContentView.swift */; };
 		7B6E6DBA2546888900A62BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6E6DB92546888900A62BE5 /* Assets.xcassets */; };
 		7B6E6DBD2546888900A62BE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6E6DBC2546888900A62BE5 /* Preview Assets.xcassets */; };
+		7B7F3FB32547ECC10089BCE9 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F3FB22547ECC10089BCE9 /* HomePage.swift */; };
+		7B7F3FB92547ED000089BCE9 /* PicturePage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F3FB82547ED000089BCE9 /* PicturePage1.swift */; };
+		7B7F3FBC2547ED0D0089BCE9 /* PicturePage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F3FBB2547ED0D0089BCE9 /* PicturePage2.swift */; };
+		7B7F3FBF25495F050089BCE9 /* Pronounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F3FBE25495F050089BCE9 /* Pronounce.swift */; };
+		7B7F3FC22549689A0089BCE9 /* (繁中字)來自星星的你 OST Part.4 孝琳 - 再見.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F3FC12549689A0089BCE9 /* (繁中字)來自星星的你 OST Part.4 孝琳 - 再見.mp3 */; };
+		7B7F3FF0254D12770089BCE9 /* AppIcon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F3FEE254D12770089BCE9 /* AppIcon1@2x.png */; };
+		7B7F3FF1254D12770089BCE9 /* AppIcon1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F3FEF254D12770089BCE9 /* AppIcon1@3x.png */; };
+		7B7F3FF5254D12A40089BCE9 /* AppIcon2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F3FF3254D12A30089BCE9 /* AppIcon2@3x.png */; };
+		7B7F3FF6254D12A40089BCE9 /* AppIcon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F3FF4254D12A30089BCE9 /* AppIcon2@2x.png */; };
+		7B7F3FFA254D12CC0089BCE9 /* AppIcon3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F3FF8254D12CC0089BCE9 /* AppIcon3@3x.png */; };
+		7B7F3FFB254D12CC0089BCE9 /* AppIcon3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F3FF9254D12CC0089BCE9 /* AppIcon3@2x.png */; };
+		7B7F3FFF254D12F00089BCE9 /* AppIcon4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F3FFD254D12F00089BCE9 /* AppIcon4@2x.png */; };
+		7B7F4000254D12F00089BCE9 /* AppIcon4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F3FFE254D12F00089BCE9 /* AppIcon4@3x.png */; };
+		7B7F4004254D13130089BCE9 /* AppIcon5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F4002254D13120089BCE9 /* AppIcon5@2x.png */; };
+		7B7F4005254D13130089BCE9 /* AppIcon5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F4003254D13120089BCE9 /* AppIcon5@3x.png */; };
+		7B7F4009254D133A0089BCE9 /* AppIcon6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F4007254D133A0089BCE9 /* AppIcon6@2x.png */; };
+		7B7F400A254D133A0089BCE9 /* AppIcon6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F4008254D133A0089BCE9 /* AppIcon6@3x.png */; };
+		7B7F400E254D13640089BCE9 /* AppIcon7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F400C254D13630089BCE9 /* AppIcon7@2x.png */; };
+		7B7F400F254D13640089BCE9 /* AppIcon7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F400D254D13640089BCE9 /* AppIcon7@3x.png */; };
+		7B7F4013254D13830089BCE9 /* AppIcon8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F4011254D13830089BCE9 /* AppIcon8@2x.png */; };
+		7B7F4014254D13830089BCE9 /* AppIcon8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F4012254D13830089BCE9 /* AppIcon8@3x.png */; };
+		7B7F4017254D15330089BCE9 /* DramaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F4016254D15330089BCE9 /* DramaPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B4309C1254D251100DE59F3 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		7B6E6DB22546888800A62BE5 /* HW4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6E6DB52546888800A62BE5 /* HW4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW4App.swift; sourceTree = "<group>"; };
 		7B6E6DB72546888800A62BE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7B6E6DB92546888900A62BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B6E6DBC2546888900A62BE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B6E6DBE2546888900A62BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B7F3FB22547ECC10089BCE9 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		7B7F3FB82547ED000089BCE9 /* PicturePage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturePage1.swift; sourceTree = "<group>"; };
+		7B7F3FBB2547ED0D0089BCE9 /* PicturePage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturePage2.swift; sourceTree = "<group>"; };
+		7B7F3FBE25495F050089BCE9 /* Pronounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pronounce.swift; sourceTree = "<group>"; };
+		7B7F3FC12549689A0089BCE9 /* (繁中字)來自星星的你 OST Part.4 孝琳 - 再見.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(繁中字)來自星星的你 OST Part.4 孝琳 - 再見.mp3"; sourceTree = "<group>"; };
+		7B7F3FEE254D12770089BCE9 /* AppIcon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon1@2x.png"; path = "../../../Downloads/AppIcons/Assets.xcassets/AppIcon.appiconset/AppIcon1@2x.png"; sourceTree = "<group>"; };
+		7B7F3FEF254D12770089BCE9 /* AppIcon1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon1@3x.png"; path = "../../../Downloads/AppIcons/Assets.xcassets/AppIcon.appiconset/AppIcon1@3x.png"; sourceTree = "<group>"; };
+		7B7F3FF3254D12A30089BCE9 /* AppIcon2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon2@3x.png"; path = "../../../Downloads/AppIcons-2/Assets.xcassets/AppIcon.appiconset/AppIcon2@3x.png"; sourceTree = "<group>"; };
+		7B7F3FF4254D12A30089BCE9 /* AppIcon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon2@2x.png"; path = "../../../Downloads/AppIcons-2/Assets.xcassets/AppIcon.appiconset/AppIcon2@2x.png"; sourceTree = "<group>"; };
+		7B7F3FF8254D12CC0089BCE9 /* AppIcon3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon3@3x.png"; path = "../../../Downloads/AppIcons-3/Assets.xcassets/AppIcon.appiconset/AppIcon3@3x.png"; sourceTree = "<group>"; };
+		7B7F3FF9254D12CC0089BCE9 /* AppIcon3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon3@2x.png"; path = "../../../Downloads/AppIcons-3/Assets.xcassets/AppIcon.appiconset/AppIcon3@2x.png"; sourceTree = "<group>"; };
+		7B7F3FFD254D12F00089BCE9 /* AppIcon4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon4@2x.png"; path = "../../../Downloads/AppIcons-4/Assets.xcassets/AppIcon.appiconset/AppIcon4@2x.png"; sourceTree = "<group>"; };
+		7B7F3FFE254D12F00089BCE9 /* AppIcon4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon4@3x.png"; path = "../../../Downloads/AppIcons-4/Assets.xcassets/AppIcon.appiconset/AppIcon4@3x.png"; sourceTree = "<group>"; };
+		7B7F4002254D13120089BCE9 /* AppIcon5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon5@2x.png"; path = "../../../Downloads/AppIcons-5/Assets.xcassets/AppIcon.appiconset/AppIcon5@2x.png"; sourceTree = "<group>"; };
+		7B7F4003254D13120089BCE9 /* AppIcon5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon5@3x.png"; path = "../../../Downloads/AppIcons-5/Assets.xcassets/AppIcon.appiconset/AppIcon5@3x.png"; sourceTree = "<group>"; };
+		7B7F4007254D133A0089BCE9 /* AppIcon6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon6@2x.png"; path = "../../../Downloads/AppIcons-6/Assets.xcassets/AppIcon.appiconset/AppIcon6@2x.png"; sourceTree = "<group>"; };
+		7B7F4008254D133A0089BCE9 /* AppIcon6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon6@3x.png"; path = "../../../Downloads/AppIcons-6/Assets.xcassets/AppIcon.appiconset/AppIcon6@3x.png"; sourceTree = "<group>"; };
+		7B7F400C254D13630089BCE9 /* AppIcon7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon7@2x.png"; sourceTree = "<group>"; };
+		7B7F400D254D13640089BCE9 /* AppIcon7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon7@3x.png"; sourceTree = "<group>"; };
+		7B7F4011254D13830089BCE9 /* AppIcon8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon8@2x.png"; sourceTree = "<group>"; };
+		7B7F4012254D13830089BCE9 /* AppIcon8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon8@3x.png"; sourceTree = "<group>"; };
+		7B7F4016254D15330089BCE9 /* DramaPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DramaPage.swift; path = ../DramaPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +100,29 @@
 			children = (
 				7B6E6DB52546888800A62BE5 /* HW4App.swift */,
 				7B6E6DB72546888800A62BE5 /* ContentView.swift */,
+				7B7F4016254D15330089BCE9 /* DramaPage.swift */,
+				7B7F3FB22547ECC10089BCE9 /* HomePage.swift */,
+				7B7F3FB82547ED000089BCE9 /* PicturePage1.swift */,
+				7B7F3FBB2547ED0D0089BCE9 /* PicturePage2.swift */,
+				7B7F3FBE25495F050089BCE9 /* Pronounce.swift */,
+				7B4309C1254D251100DE59F3 /* ImageView.swift */,
+				7B7F3FC12549689A0089BCE9 /* (繁中字)來自星星的你 OST Part.4 孝琳 - 再見.mp3 */,
+				7B7F4007254D133A0089BCE9 /* AppIcon6@2x.png */,
+				7B7F4008254D133A0089BCE9 /* AppIcon6@3x.png */,
+				7B7F3FF9254D12CC0089BCE9 /* AppIcon3@2x.png */,
+				7B7F3FFD254D12F00089BCE9 /* AppIcon4@2x.png */,
+				7B7F400C254D13630089BCE9 /* AppIcon7@2x.png */,
+				7B7F400D254D13640089BCE9 /* AppIcon7@3x.png */,
+				7B7F3FFE254D12F00089BCE9 /* AppIcon4@3x.png */,
+				7B7F4011254D13830089BCE9 /* AppIcon8@2x.png */,
+				7B7F4012254D13830089BCE9 /* AppIcon8@3x.png */,
+				7B7F4002254D13120089BCE9 /* AppIcon5@2x.png */,
+				7B7F4003254D13120089BCE9 /* AppIcon5@3x.png */,
+				7B7F3FF8254D12CC0089BCE9 /* AppIcon3@3x.png */,
+				7B7F3FF4254D12A30089BCE9 /* AppIcon2@2x.png */,
+				7B7F3FF3254D12A30089BCE9 /* AppIcon2@3x.png */,
+				7B7F3FEE254D12770089BCE9 /* AppIcon1@2x.png */,
+				7B7F3FEF254D12770089BCE9 /* AppIcon1@3x.png */,
 				7B6E6DB92546888900A62BE5 /* Assets.xcassets */,
 				7B6E6DBE2546888900A62BE5 /* Info.plist */,
 				7B6E6DBB2546888900A62BE5 /* Preview Content */,
@@ -126,8 +195,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B7F400A254D133A0089BCE9 /* AppIcon6@3x.png in Resources */,
+				7B7F4009254D133A0089BCE9 /* AppIcon6@2x.png in Resources */,
 				7B6E6DBD2546888900A62BE5 /* Preview Assets.xcassets in Resources */,
+				7B7F4005254D13130089BCE9 /* AppIcon5@3x.png in Resources */,
+				7B7F3FFB254D12CC0089BCE9 /* AppIcon3@2x.png in Resources */,
+				7B7F3FF1254D12770089BCE9 /* AppIcon1@3x.png in Resources */,
+				7B7F4000254D12F00089BCE9 /* AppIcon4@3x.png in Resources */,
+				7B7F3FFA254D12CC0089BCE9 /* AppIcon3@3x.png in Resources */,
+				7B7F400F254D13640089BCE9 /* AppIcon7@3x.png in Resources */,
+				7B7F3FF6254D12A40089BCE9 /* AppIcon2@2x.png in Resources */,
 				7B6E6DBA2546888900A62BE5 /* Assets.xcassets in Resources */,
+				7B7F4014254D13830089BCE9 /* AppIcon8@3x.png in Resources */,
+				7B7F3FFF254D12F00089BCE9 /* AppIcon4@2x.png in Resources */,
+				7B7F3FF5254D12A40089BCE9 /* AppIcon2@3x.png in Resources */,
+				7B7F3FC22549689A0089BCE9 /* (繁中字)來自星星的你 OST Part.4 孝琳 - 再見.mp3 in Resources */,
+				7B7F4013254D13830089BCE9 /* AppIcon8@2x.png in Resources */,
+				7B7F400E254D13640089BCE9 /* AppIcon7@2x.png in Resources */,
+				7B7F3FF0254D12770089BCE9 /* AppIcon1@2x.png in Resources */,
+				7B7F4004254D13130089BCE9 /* AppIcon5@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +224,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4309C2254D251100DE59F3 /* ImageView.swift in Sources */,
 				7B6E6DB82546888800A62BE5 /* ContentView.swift in Sources */,
+				7B7F3FBC2547ED0D0089BCE9 /* PicturePage2.swift in Sources */,
+				7B7F3FB32547ECC10089BCE9 /* HomePage.swift in Sources */,
+				7B7F4017254D15330089BCE9 /* DramaPage.swift in Sources */,
+				7B7F3FB92547ED000089BCE9 /* PicturePage1.swift in Sources */,
+				7B7F3FBF25495F050089BCE9 /* Pronounce.swift in Sources */,
 				7B6E6DB62546888800A62BE5 /* HW4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
